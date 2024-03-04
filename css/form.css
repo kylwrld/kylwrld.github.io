@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#wrapper-header {
+    width: auto;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #5285b3;
+    box-shadow: 0 0.7rem 1rem rgba(0,0,0,0.09), inset 0 -1px 0 rgba(0, 0, 0, 0.15)
+}
+
+#main-header {
+    display: flex;
+    width: 1130px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-cv {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+
+#buttons a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#buttons img {
+    width: 20px;
+    
+}
+
+#wrapper {
+    display: flex;
+    justify-content:end;
+    width: auto;
+    height: 100%;
+}
+
+#main-form {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: auto;
+
+    background-color: whitesmoke;
+    box-shadow: -6px 0rem 1rem rgba(0,0,0,0.09), inset 0 -1px 0 rgba(0, 0, 0, 0.15)
+}
+
+#h1-form {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 500px;
+    height: 600px;
+    
+    border-radius: 10px;
+
+}
+
+label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+input {
+    border-radius: 10px;
+    border-style: solid;
+    width: 300px;
+}
+
+#password {
+    -webkit-text-security: circle;
+}
+
+#conf-password {
+    -webkit-text-security: circle;
+}
+
+#submit {
+    background-color: rgb(10, 103, 131);
+
+    margin-top: 20px;
+    border-radius: 15px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: none;
+    color: white;
+}
