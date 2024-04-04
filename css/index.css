@@ -30,7 +30,7 @@ body {
 
 #main-header {
     display: flex;
-    width: 1130px;
+    width: 65%;
     justify-content: space-between;
     align-items: center;
 }
@@ -68,13 +68,13 @@ body {
 #wrapper {
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 65%;
     height: 100%;
 }
 
 #main {
     display: flex;
-    width: 1130px;
+    width: auto;
     flex-direction: column;
     height: fit-content;
     justify-content: center;
@@ -200,4 +200,10 @@ footer {
     flex-wrap: wrap;
     width: 1600px;
     
+}
+
+@media only screen and (max-width: 400px) {
+    #main-header {
+        flex-direction: column;
+    }
 }
